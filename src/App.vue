@@ -15,7 +15,6 @@
       />
 
       <div v-if="filteredBooks.length === 0" class="empty-state">
-        <p class="empty-icon">○</p>
         <p>Книги не найдены</p>
         <p>Добавь первую книгу или измени параметры поиска</p>
       </div>
